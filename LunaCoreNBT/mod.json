@@ -1,0 +1,6 @@
+{
+    "name": "LunaCoreNBT",
+    "description": "An API for Reading/Writing NBT Data & Files in 'Minecraft: New Nintendo 3DS Edition'.",
+    "version": "1.0.0",
+    "dependencies": ["LunaCoreAPI"]
+}
