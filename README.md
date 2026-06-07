@@ -1,5 +1,5 @@
 # LunaCoreNBT
-An NBT Writer/Reader for LunaCoreAPI. Allowing for modding of `*.vdb` and `*level.dat` files/data and more in realtime.
+- An NBT Writer/Reader for LunaCore. Allowing for editing of `*.vdb` and `*level.dat` data and more in realtime.
 
 ## Installing:
 - Install it as the same meathod as `LunaCoreAPI`.
@@ -11,6 +11,7 @@ An NBT Writer/Reader for LunaCoreAPI. Allowing for modding of `*.vdb` and `*leve
   - If you're using a script, you can call it directly. Or use ```local NBT = require("LunaCoreNBT")```for safer operation.
 
  ## Example Usage:
+- Full Documentation [Here](https://github.com/Cracko298/LunaCoreNBT/blob/main/api_docs.lua).
  ```lua
 local NBT = require("LunaCoreNBT")
 local root = NBT.loadFile("sdmc:/level.dat", { -- Should be easily able to modify these inside of ExtData with LunaCoreAPI calling it.
