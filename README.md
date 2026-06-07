@@ -20,7 +20,7 @@ local root = NBT.loadFile("sdmc:/level.dat", { -- Should be easily able to modif
 
 Core.Debug.message(NBT.getChild(root, "LevelName").value) -- Prints the World Name to the Screen using LunaCoreAPI
 
-NBT.getChild(root, "LevelName").value = "Example World Edit" - Edits the World Name to 'Example World Edit'
+NBT.getChild(root, "LevelName").value = "Example World Edit" -- Edits the World Name to 'Example World Edit'
 NBT.setChild(root, NBT.newInt("SpawnX", 100))
 NBT.setChild(root, NBT.newInt("SpawnY", 64))
 NBT.setChild(root, NBT.newInt("SpawnZ", 100))
